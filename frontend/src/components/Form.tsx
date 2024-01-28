@@ -38,11 +38,12 @@ const ReviewForm: FC<FormProps> = ({
       <div className="flex justify-center items-center mb-4">
         {/* Logo with text */}
         <img
-          src="/images/solview.webp"
+          src="/solview.webp"
           alt="SOLVIEW Logo"
           className="h-10 mr-2"
         />
         <h1 className="text-2xl font-bold">SOLVIEW</h1>
+        <p className="text-sm text-gray-500">Solana biz reviews</p>
       </div>
       <form
         className="shadow-md rounded px-8 pt-6 pb-8 mb-4"
@@ -79,13 +80,13 @@ const ReviewForm: FC<FormProps> = ({
   
           <div className="mb-4">
             <label className="block text-gray-400 text-sm font-bold mb-2">
-              Location
+              W3W Location
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="location"
               type="text"
-              placeholder="Location"
+              placeholder="///what.3.bars"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
             />
